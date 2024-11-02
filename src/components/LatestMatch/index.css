@@ -1,0 +1,43 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree Serif';
+}
+
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 42px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.competingTeam-logo {
+  width: 250px;
+  height: 200px;
+  margin-left: 0px;
+}
+
+.competingTeam-name {
+  font-size: 30px;
+}
+
+.match-date {
+  font-size: 24px;
+}
+
+.latest-match-small-text {
+  font-size: 14px;
+}
+
+.latest-match-medium-text {
+  font-size: 20px;
+}
+
+.win-result-container {
+  margin-right: 0px;
+}

@@ -1,0 +1,50 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree Serif';
+}
+
+.match-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 12px;
+  color: #ffffff;
+  width: 250px;
+  /* height: 330px; */
+  padding: 28px;
+}
+
+.matchcard-logo {
+  width: 140px;
+  height: 140px;
+}
+
+.match-card-team {
+  font-size: 27px;
+}
+
+.match-card-result {
+  font-size: 20px;
+}
+
+.match-card-status-lost {
+  color: #e31a1a;
+  font-size: 22px;
+}
+
+.match-card-status-win {
+  color: #18ed66;
+  font-size: 22px;
+}
+
+.match-card-team {
+  text-align: center;
+  font-size: 22px;
+}
+
+.match-card-result {
+  font-size: 16px;
+  text-align: center;
+}

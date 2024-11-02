@@ -1,0 +1,34 @@
+/* Write your CSS here */
+* {
+  font-family: 'Bree Serif';
+}
+
+.team-card-link {
+  text-decoration: none;
+}
+
+.team-card-link:hover {
+  text-decoration: none;
+}
+
+.team-logo {
+  width: 100px;
+  height: 120px;
+}
+
+.teamcard-container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  background-color: #ffffff33;
+  padding: 12px;
+}
+
+.team-name {
+  font-size: 27px;
+  align-self: center;
+  width: 240px;
+  text-align: center;
+}
